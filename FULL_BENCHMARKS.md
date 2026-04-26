@@ -8,6 +8,8 @@ This is a comprehensive multilingual evaluation covering 90 languages, comparing
 |---|:---:|:---:|
 | **Average** | **72.7% +/- 1.2%** | **60.8% +/- 1.3%** |
 
+> **Personal note:** Chandra 2 wins on 68 out of 90 languages. Notable weak spots for Chandra 2: `su` (Sundanese), `vi`, `bs`, `ca`, `fi`, `sk`, `lv`, `ko`, `jv`, `ku`, `ur`, `th`, `hi`, `af`, `hu`. Worth investigating whether these are data issues or tokenizer coverage gaps.
+
 ## Results by Language
 
 | Language | Chandra 2 | Gemini 2.5 Flash |
