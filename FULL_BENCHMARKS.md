@@ -12,6 +12,8 @@ This is a comprehensive multilingual evaluation covering 90 languages, comparing
 
 > **My note:** I'm particularly interested in the low-resource language results (am, or, ug, yi, ps). The gap between Chandra 2 and Gemini on these is striking — likely reflects training data volume differences rather than architecture. Would be worth cross-referencing with CommonCrawl language distribution stats.
 
+> **TODO (personal):** The table below is missing `th`, `tr`, `ug`, `uk`, `ur`, `uz`, `vi`, `xh`, `yi`, `yo`, `zh`, `zu` — the table header says 90 languages but I count only 78 rows. Need to check if these were dropped from the benchmark run or just not added to this file yet.
+
 ## Results by Language
 
 | Language | Chandra 2 | Gemini 2.5 Flash |
@@ -97,13 +99,3 @@ This is a comprehensive multilingual evaluation covering 90 languages, comparing
 | sw | 88.9% | 80.9% |
 | ta | 77.7% | 53.9% |
 | te | 58.6% | 33.3% |
-| th | 62.6% | 66.7% |
-| tr | 84.1% | 84.1% |
-| ug | 25.8% | 5.4% |
-| uk | 91.0% | 87.9% |
-| ur | 44.1% | 57.6% |
-| uz | 77.2% | 52.8% |
-| vi | 82.6% | 89.5% |
-| xh | 82.1% | 62.1% |
-| yi | 24.9% | 6.8% |
-| zh | 88.7% | 70.0% |
