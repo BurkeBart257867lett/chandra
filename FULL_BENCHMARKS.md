@@ -14,6 +14,8 @@ This is a comprehensive multilingual evaluation covering 90 languages, comparing
 
 > **TODO (personal):** The table below is missing `th`, `tr`, `ug`, `uk`, `ur`, `uz`, `vi`, `xh`, `yi`, `yo`, `zh`, `zu` — the table header says 90 languages but I count only 78 rows. Need to check if these were dropped from the benchmark run or just not added to this file yet.
 
+> **My note:** `ps` (Pashto) at 12.6% for Chandra 2 is the lowest score in the entire table and actually slightly worse than Gemini's 13.3%. This one stands out — might be worth checking if there's a script/encoding issue in the eval data rather than a genuine model weakness.
+
 ## Results by Language
 
 | Language | Chandra 2 | Gemini 2.5 Flash |
@@ -86,16 +88,4 @@ This is a comprehensive multilingual evaluation covering 90 languages, comparing
 | pt | 95.2% | 89.4% |
 | ro | 84.5% | 76.7% |
 | ru | 85.5% | 82.8% |
-| sa | 51.1% | 44.6% |
-| sd | 50.0% | 29.3% |
-| si | 62.4% | 26.2% |
-| sk | 77.3% | 81.2% |
-| sl | 81.0% | 80.1% |
-| so | 82.4% | 69.9% |
-| sq | 75.3% | 77.1% |
-| sr | 90.3% | 89.7% |
-| su | 85.7% | 96.4% |
-| sv | 93.3% | 91.1% |
-| sw | 88.9% | 80.9% |
-| ta | 77.7% | 53.9% |
-| te | 58.6% | 33.3% |
+| sa | 51.1% | 44.
