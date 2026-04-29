@@ -53,7 +53,7 @@ from chandra import Embedder, EmbedderConfig
 
 config = EmbedderConfig(
     model_name="sentence-transformers/all-MiniLM-L6-v2",
-    batch_size=64,
+    batch_size=32,  # lowered from 64 — better for my local CPU setup
     max_length=512,
     normalize=True,
     device="cpu",  # or "cuda", "mps"
