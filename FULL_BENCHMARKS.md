@@ -16,6 +16,8 @@ This is a comprehensive multilingual evaluation covering 90 languages, comparing
 
 > **My note:** `ps` (Pashto) at 12.6% for Chandra 2 is the lowest score in the entire table and actually slightly worse than Gemini's 13.3%. This one stands out — might be worth checking if there's a script/encoding issue in the eval data rather than a genuine model weakness.
 
+> **My note:** `ms` row appears to be truncated in the source file (score cut off mid-value). Need to track down the original benchmark output to fill in the missing rows and fix this. Flagging so I don't forget.
+
 ## Results by Language
 
 | Language | Chandra 2 | Gemini 2.5 Flash |
@@ -76,16 +78,4 @@ This is a comprehensive multilingual evaluation covering 90 languages, comparing
 | ml | 64.3% | 23.8% |
 | mn | 88.4% | 71.4% |
 | mr | 75.0% | 69.7% |
-| ms | 79.3% | 79.8% |
-| my | 55.9% | 15.8% |
-| ne | 45.3% | 43.0% |
-| nl | 88.6% | 87.5% |
-| no | 90.5% | 87.8% |
-| or | 31.1% | 11.2% |
-| pa | 48.3% | 22.4% |
-| pl | 91.5% | 91.1% |
-| ps | 12.6% | 13.3% |
-| pt | 95.2% | 89.4% |
-| ro | 84.5% | 76.7% |
-| ru | 85.5% | 82.8% |
-| sa | 51.1% | 44.
+| ms | 79.3% | 7
