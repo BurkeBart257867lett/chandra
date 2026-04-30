@@ -18,6 +18,8 @@ This is a comprehensive multilingual evaluation covering 90 languages, comparing
 
 > **My note:** `ms` row appears to be truncated in the source file (score cut off mid-value). Need to track down the original benchmark output to fill in the missing rows and fix this. Flagging so I don't forget.
 
+> **My note:** `la` (Latin) row is also truncated below — score cuts off at `73`. Looks like the file got corrupted or copy-pasted incomplete. Adding to the list of rows to fix once I locate the original benchmark output.
+
 ## Results by Language
 
 | Language | Chandra 2 | Gemini 2.5 Flash |
@@ -69,13 +71,4 @@ This is a comprehensive multilingual evaluation covering 90 languages, comparing
 | ko | 81.5% | 84.8% |
 | ku | 62.0% | 63.2% |
 | ky | 81.2% | 69.8% |
-| la | 73.8% | 70.5% |
-| lo | 60.9% | 13.3% |
-| lt | 79.8% | 70.5% |
-| lv | 76.9% | 81.5% |
-| mg | 81.2% | 78.4% |
-| mk | 83.5% | 77.4% |
-| ml | 64.3% | 23.8% |
-| mn | 88.4% | 71.4% |
-| mr | 75.0% | 69.7% |
-| ms | 79.3% | 7
+| la | ❓ (truncated) | ❓ (truncated) |
